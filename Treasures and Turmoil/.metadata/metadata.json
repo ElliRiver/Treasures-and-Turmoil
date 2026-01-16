@@ -1,9 +1,9 @@
 ﻿{
 	"name":	"Treasures and Turmoil",
-	"id":	"TnT",
+	"id":	"TaT",
 	"version":	"0.1",
 	"supported_game_version":	"1.10",
-	"short_description":	"Temporaty Desc\nSilly Alternate History Mod",
+	"short_description":	"Temporaty Desc\nTreasures and Turmoil is an Alternate History mod for Europa Universales V",
 	"tags":	["Advancements", "Alternative history", "Balance", "Characters", "Culture & Art", "Diplomacy", "Events", "Flags", "Gameplay", "Government and Estates", "International Organizations", "Loading Screen", "Map", "Military", "Missions", "Overhaul", "Religion", "Textures", "Trade and Economics", "Translation", "User Interface", "Utilities"],
 	"relationships":	[],
 	"game_custom_data":	{
