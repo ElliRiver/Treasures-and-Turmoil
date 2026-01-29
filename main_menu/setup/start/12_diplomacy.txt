@@ -12,6 +12,7 @@ diplomacy_manager = {
     dependency = { first = SCO second = LOI subject_type = vassal }
     dependency = { first = SCO second = ROS subject_type = vassal }
     dependency = { first = SCO second = MOY subject_type = vassal }
+    dependency = { first = SCO second = CUM subject_type = vassal }
 
     dependency = { first = WLS second = GWR subject_type = vassal }
     dependency = { first = WLS second = GMG subject_type = vassal }

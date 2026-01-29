@@ -4332,7 +4332,7 @@ countries = {
 		own_control_core = {
 			duns roxburgh dunbar berwick
 			newcastle hexham alnwick morpeth billingham
-			carlisle cockermouth penrith egremont kendal appleby
+			kendal appleby
 			york scarborough bedale richmond whitby
 			lancaster blackburn skipton liverpool preston manchester
 			chester macclesfield nantwich
@@ -4971,7 +4971,7 @@ countries = {
 			oban inverary cowal forfar arbroath arran scone
 			dornoch durness tongue
 			perth kirkcudbright kenmure stranraer ayr
-			edinburgh stirling dumfries lanark linlithgow
+			edinburgh stirling lanark linlithgow
 			strathearn cupar selkirk
 		}	
 		own_control_conquered = {
@@ -5087,8 +5087,8 @@ countries = {
 		court_language = norman_dialect
 		country_rank = rank_kingdom
 		capital = dunfermline
-		accepted_cultures = { highland }
-		tolerated_cultures = { norse_gael }
+		accepted_cultures = { norse_gael cumbric }
+		tolerated_cultures = { scottish }
 
 		currency_data = {
 			gold = 200
@@ -5098,6 +5098,25 @@ countries = {
 			war_exhaustion = 1.5 # Starting Turnmoil with Balliol
 			army_tradition = 15
 		}
+	}
+
+	CUM = {
+		own_control_core = {
+			dumfries
+			carlisle cockermouth penrith egremont
+		}
+
+		accepted_cultures = { highland norse_gael }
+		tolerated_cultures = { scottish }
+		government = {
+			type = monarchy
+			heir_selection = cognatic_primogeniture
+			ruler = random
+		}
+		include = "expl_western_europe"
+		include = "catholic_monarchy"
+		country_rank = rank_county
+		capital = carlisle
 	}
 
 	LOI = { # The Isles
